@@ -20,6 +20,10 @@ load_in_8bit="False" # load the model in 8bit? ("False" or "True")
 load_in_4bit="False" # load the model in 4bit? ("False" or "True")
 use_20_fewshot="False" # use a 20-shot prompt in ARC? ("False" or "True") => we set this to "True" for Falcon 
 
+res_dir=".../mcqa-artifacts/results" # Results folder directory
+prompt_dir=".../mcqa-artifacts/prompts" # Prompt folder directory
+cache_dir=... # Cache directory to save the model
+
 
 
 datasets_str=$(IFS=" "; echo "${datasets[*]}")
@@ -35,4 +39,7 @@ python3 /mcqa-artifacts/model/run_hf_remote.py \
 --load_in_8bit="$load_in_8bit" \
 --partition="$partition" \
 --prompt_types="$experiments_str" \
---use_20_fewshot="$use_20_fewshot"
+--use_20_fewshot="$use_20_fewshot" \
+--res_dir="$res_dir" \
+--prompt_dir="$prompt_dir" \
+--cache_dir="$cache_dir"
