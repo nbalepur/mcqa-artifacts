@@ -19,7 +19,6 @@ import pickle
 import pandas as pd
 from scipy import stats
 import numpy as np
-import plotnine
 import matplotlib.pyplot as plt
 
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'model'))

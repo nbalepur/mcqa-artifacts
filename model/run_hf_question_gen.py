@@ -207,7 +207,16 @@ def run_inference(dataset_names, model_name, partition, use_random_question, use
                              'first_quarter': (0, int(0.25 * len(input_prompts))),
                              'second_quarter': (int(0.25 * len(input_prompts)), int(0.5 * len(input_prompts))),
                              'third_quarter': (int(0.5 * len(input_prompts)), int(0.75 * len(input_prompts))),
-                             'fourth_quarter': (int(0.75 * len(input_prompts)), len(input_prompts))}
+                             'fourth_quarter': (int(0.75 * len(input_prompts)), len(input_prompts)),
+                             'first_eighth': (0, int(0.125 * len(input_prompts))),
+                             'second_eighth': (int(0.125 * len(input_prompts)), int(2*0.125 * len(input_prompts))),
+                             'third_eighth': (int(2*0.125 * len(input_prompts)), int(3*0.125 * len(input_prompts))),
+                             'fourth_eighth': (int(3*0.125 * len(input_prompts)), int(4*0.125 * len(input_prompts))),
+                             'fifth_eighth': (int(4*0.125 * len(input_prompts)), int(5*0.125 * len(input_prompts))),
+                             'sixth_eighth': (int(5*0.125 * len(input_prompts)), int(6*0.125 * len(input_prompts))),
+                             'seventh_eighth': (int(6*0.125 * len(input_prompts)), int(7*0.125 * len(input_prompts))),
+                             'eighth_eighth': (int(7*0.125 * len(input_prompts)), len(input_prompts)),
+                             }
             start, end = partition_map[partition]
 
             for i in tqdm.tqdm(range(start, end)):

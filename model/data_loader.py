@@ -1,46 +1,52 @@
 from enum import Enum
 import numpy as np
 from prompt import Normal, MemoriazationNoChoices, MemoriazationRepeatGoldChoices, MemoriazationEmptyChoices, ArtifactChoices, ArtifactChoicesQuestionCOT, TwoChoices, ThreeChoices, ShuffleChoices, ChoiceA, ChoiceB, ChoiceC, ChoiceD, ChoiceAQuestion, ChoiceBQuestion, ChoiceCQuestion, ChoiceDQuestion
-import contextlib
 from datasets.utils.logging import disable_progress_bar
 disable_progress_bar()
 
 class PromptType(Enum):
-    normal = 'normal'
-    memorization_no_choice = 'memorization_no_choice'
-    memorization_gold = 'memorization_gold'
-    memorization_empty = 'memorization_empty'
-    artifact_choices = 'artifact_choices'
-    artifact_choices_cot = 'artifact_choices_cot'
-    two_choices = 'two_choices'
-    three_choices = 'three_choices'
-    shuffle_choices = 'shuffle_choices'
-    choice_a = 'choice_a'
-    choice_b = 'choice_b'
-    choice_c = 'choice_c'
-    choice_d = 'choice_d'
-    choice_a_question = 'choice_a_question'
-    choice_b_question = 'choice_b_question'
-    choice_c_question = 'choice_c_question'
-    choice_d_question = 'choice_d_question'
-    choice_a_even = 'choice_a_even'
-    choice_b_even = 'choice_b_even'
-    choice_c_even = 'choice_c_even'
-    choice_d_even = 'choice_d_even'
-    choice_a_question_even = 'choice_a_question_even'
-    choice_b_question_even = 'choice_b_question_even'
-    choice_c_question_even = 'choice_c_question_even'
-    choice_d_question_even = 'choice_d_question_even'
-    artifact_choices_cot_twostep = 'artifact_choices_cot_twostep'
-    artifact_choices_cot_twostep_generated = 'artifact_choices_cot_twostep_generated'
-    artifact_choices_cot_twostep_random = 'artifact_choices_cot_twostep_random'
+    normal = 'normal' # Full MCQA Prompt
+    artifact_choices = 'artifact_choices' # Choices-Only Prompt
+
+    memorization_no_choice = 'memorization_no_choice' # Memorization Prompt - no choices shown
+    memorization_gold = 'memorization_gold' # Memorization Prompt - all choices are the gold answer
+    memorization_empty = 'memorization_empty' # Memorization Prompt - all choices are empty
+
+    choice_a_even = 'choice_a_even' # Independently classify the correctness of each option A, without the question
+    choice_b_even = 'choice_b_even' # Independently classify the correctness of each option B, without the question
+    choice_c_even = 'choice_c_even' # Independently classify the correctness of each option C, without the question
+    choice_d_even = 'choice_d_even' # Independently classify the correctness of each option D, without the question
+
+    choice_a_question_even = 'choice_a_question_even' # Independently classify the correctness of each option A, with the question
+    choice_b_question_even = 'choice_b_question_even' # Independently classify the correctness of each option B, with the question
+    choice_c_question_even = 'choice_c_question_even' # Independently classify the correctness of each option C, with the question
+    choice_d_question_even = 'choice_d_question_even' # Independently classify the correctness of each option D, with the question
+
+    artifact_choices_cot = 'artifact_choices_cot' # Step 1 of Inferring the Question
+    artifact_choices_cot_twostep_generated = 'artifact_choices_cot_twostep_generated' # Step 2 of Inferring the Question
+    artifact_choices_cot_twostep_random = 'artifact_choices_cot_twostep_random' # Inferring the Question comparison with Random Question
+
+    two_choices = 'two_choices' # 2 Choices out of 4 (not in paper)
+    three_choices = 'three_choices' # 3 Choices out of 4 (not in paper)
+    shuffle_choices = 'shuffle_choices' # Shuffle the MC choices (not in paper)
+
+    choice_a = 'choice_a' # Independently classify the correctness of each option A, without the question (75/25 prior)
+    choice_b = 'choice_b' # Independently classify the correctness of each option B, without the question (75/25 prior)
+    choice_c = 'choice_c' # Independently classify the correctness of each option C, without the question (75/25 prior)
+    choice_d = 'choice_d' # Independently classify the correctness of each option D, without the question (75/25 prior)
+
+    choice_a_question = 'choice_a_question_' # Independently classify the correctness of each option A, with the question (75/25 prior)
+    choice_b_question = 'choice_b_question' # Independently classify the correctness of each option B, with the question (75/25 prior)
+    choice_c_question = 'choice_c_question' # Independently classify the correctness of each option C, with the question (75/25 prior)
+    choice_d_question = 'choice_d_question' # Independently classify the correctness of each option D, with the question (75/25 prior)
+
 
 
 class DatasetName(Enum):
-    mmlu = 'mmlu'
-    HellaSwag = 'HellaSwag'
-    ARC = 'ARC'
-    Winogrande = 'Winogrande'
+    mmlu = 'mmlu' # MMLU
+    HellaSwag = 'HellaSwag' # HellaSwag
+    ARC = 'ARC' # ARC
+    Winogrande = 'Winogrande' # Winogrande (not in paper)
 
 prompt_type_map = {
     PromptType.normal: Normal,
