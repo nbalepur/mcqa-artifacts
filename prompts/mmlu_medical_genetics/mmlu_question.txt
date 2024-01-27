@@ -1,0 +1,19 @@
+Question: Large triplet repeat expansions can be detected by:
+Choice: polymerase chain reaction.
+Answer: False
+
+Question: DNA ligase is
+Choice: an enzyme that joins fragments in normal DNA replication
+Answer: True
+
+Question: A gene showing codominance
+Choice: has one allele dominant to the other
+Answer: False
+
+Question: Which of the following conditions does not show multifactorial inheritance?
+Choice: Pyloric stenosis
+Answer: False
+
+Question: The stage of meiosis in which chromosomes pair and cross over is:
+Choice: prophase I
+Answer: True

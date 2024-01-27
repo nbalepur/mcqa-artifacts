@@ -1,0 +1,14 @@
+Choice: Consequentialism is not supported by African values.
+Answer: False
+
+Choice: a zygote.
+Answer: True
+
+Choice: being more beautiful than most of the population
+Answer: False
+
+Choice: SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction.
+Answer: True
+
+Choice: the stupidity of most traditional philosophical examples.
+Answer: False

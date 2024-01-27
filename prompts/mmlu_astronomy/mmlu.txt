@@ -1,0 +1,14 @@
+Choice: It would be harder since the truck is lighter on Mars.
+Answer: False
+
+Choice: The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt.
+Answer: True
+
+Choice: 10000 times more
+Answer: True
+
+Choice: A planet once formed here but it was broken apart by a catastrophic collision.
+Answer: False
+
+Choice: Because Mars is covered with ancient lava flows which are red in color.
+Answer: False

@@ -1,0 +1,14 @@
+Choice: Wrong, Not wrong
+Answer: False
+
+Choice: Not wrong, Wrong
+Answer: True
+
+Choice: Not wrong, Not wrong
+Answer: True
+
+Choice: Not wrong, Wrong
+Answer: False
+
+Choice: Not wrong, Not wrong
+Answer: False

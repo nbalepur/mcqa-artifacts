@@ -1,0 +1,24 @@
+Question:  Select the best translation into predicate logic: No people drive on Mars.
+Choice: ~Pd
+Answer: False
+
+Question: Select the best translation into predicate logic.George borrows Hector's lawnmower. (g: George; h: Hector; l: Hector's lawnmower; Bxyx: x borrows y from z)
+Choice: Bglh
+Answer: True
+
+Question:  Select the best English interpretation of the given arguments in predicate logic.
+Dm
+(∀x)(Wx ⊃ ~Dx)
+(∀x)Wx ∨ Ag	/ (∃x)Ax
+Choice: Marina is a dancer. No weakling is a dancer. Either everything is a weakling or Georgia plays volleyball. So something plays volleyball.
+Answer: True
+
+Question:  Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.
+E ⊃ (F · E) and ~E · F
+Choice: Contradictory
+Answer: False
+
+Question:  Which of the given formulas of PL is the best symbolization of the following sentence?
+Turtles live long lives and are happy creatures, unless they are injured.
+Choice: L • (H ∨ I)
+Answer: False

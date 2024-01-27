@@ -1,0 +1,14 @@
+Choice: Starting position and end position
+Answer: False
+
+Choice: Frederick Hertzberg
+Answer: True
+
+Choice: Control systems
+Answer: False
+
+Choice: Innovation
+Answer: False
+
+Choice: Flat
+Answer: True

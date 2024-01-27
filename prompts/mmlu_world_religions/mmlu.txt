@@ -1,0 +1,14 @@
+Choice: Circumcision
+Answer: True
+
+Choice: The Bodhisattva
+Answer: False
+
+Choice: Han
+Answer: False
+
+Choice: Tanaka
+Answer: False
+
+Choice: Philosophical texts
+Answer: True

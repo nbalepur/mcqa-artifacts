@@ -1,0 +1,19 @@
+Question: What is the embryological origin of the hyoid bone?
+Choice: The second and third pharyngeal arches
+Answer: True
+
+Question: Which of these branches of the trigeminal nerve contain somatic motor processes?
+Choice: None of the above
+Answer: True
+
+Question: The pleura
+Choice: are composed of respiratory epithelium.
+Answer: False
+
+Question: In Angle's Class II Div 2 occlusion there is
+Choice: negative overjet of the upper central incisors.
+Answer: False
+
+Question: Which of the following is the body cavity that contains the pituitary gland?
+Choice: Pleural
+Answer: False

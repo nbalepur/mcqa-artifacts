@@ -1,0 +1,19 @@
+Question: Psychological egoism is:
+Choice: none of the above.
+Answer: False
+
+Question: According to Moore’s “ideal utilitarianism,” the right action is the one that brings about the greatest amount of:
+Choice: virtue.
+Answer: False
+
+Question: According to d'Holbach, people always act according to _____.
+Choice: undetermined will
+Answer: False
+
+Question: Before Tolstoy's Christian conversion, what was his perspective on the meaning of life?
+Choice: pessimist
+Answer: True
+
+Question: The study of reality in the broadest sense, an inquiry into the elemental nature of the universe and the things in it, is known as _____.
+Choice: metaphysics
+Answer: True

@@ -1,0 +1,19 @@
+Question: Why are parvoviruses a highly impactful parasite?
+Choice: Can integrate into host chromosomes
+Answer: False
+
+Question: Which of the following is a morphological characteristic of the paramyxoviruses.
+Choice: Fragile viruses often visualised with RNA spewing from the inside
+Answer: True
+
+Question: A key factor facilitating the application of nested case-control studies from the MACS was:
+Choice: Data collection
+Answer: False
+
+Question: The most important goal of a behavioral intervention is:
+Choice: Effective use of behavioral theory
+Answer: False
+
+Question: The median survival time to AIDS and death was established by following:
+Choice: Seroconverters
+Answer: True

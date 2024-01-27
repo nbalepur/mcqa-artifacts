@@ -1,0 +1,19 @@
+Question: How many axles does a standard automobile have?
+Choice: one
+Answer: False
+
+Question: What place is named in the title of the 1979 live album by rock legends Cheap Trick?
+Choice: Budokan
+Answer: True
+
+Question: Who is the shortest man to ever win an NBA slam dunk competition?
+Choice: Julius 'Dr J' Erving
+Answer: False
+
+Question: What is produced during photosynthesis?
+Choice: light
+Answer: False
+
+Question: Which of these songs was a Top 10 hit for the rock band The Police?
+Choice: 'De Do Do Do De Da Da Da'
+Answer: True

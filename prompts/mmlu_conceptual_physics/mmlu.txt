@@ -1,0 +1,14 @@
+Choice: the same
+Answer: False
+
+Choice: a traveling twin and a stay-at-home twin.
+Answer: False
+
+Choice: interference
+Answer: True
+
+Choice: greater
+Answer: True
+
+Choice: Iron
+Answer: False

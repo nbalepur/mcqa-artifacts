@@ -1,0 +1,14 @@
+Choice: crude birth rate from the crude death rate.
+Answer: False
+
+Choice: Birth rates decline and population growth rate is less rapid.
+Answer: True
+
+Choice: Social problems of the central city spill over into the surrounding residential suburbs.
+Answer: False
+
+Choice: maquiladoras.
+Answer: False
+
+Choice: Dove symbol
+Answer: True

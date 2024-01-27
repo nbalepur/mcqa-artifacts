@@ -1,0 +1,14 @@
+Choice: Never occur
+Answer: False
+
+Choice: 0.2
+Answer: False
+
+Choice: (i), (ii), and (iii) only
+Answer: True
+
+Choice: It will be biased
+Answer: False
+
+Choice: 3 lags
+Answer: True

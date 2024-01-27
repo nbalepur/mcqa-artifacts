@@ -1,0 +1,14 @@
+Choice: polymerase chain reaction.
+Answer: False
+
+Choice: an enzyme that joins fragments in normal DNA replication
+Answer: True
+
+Choice: has one allele dominant to the other
+Answer: False
+
+Choice: Pyloric stenosis
+Answer: False
+
+Choice: prophase I
+Answer: True

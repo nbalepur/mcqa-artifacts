@@ -1,0 +1,14 @@
+Choice: An increase in the construction of new houses.
+Answer: True
+
+Choice: the consumer surplus will decrease
+Answer: False
+
+Choice: 100
+Answer: True
+
+Choice: The price floor shifts the demand curve to the left.
+Answer: False
+
+Choice: A homogenous product
+Answer: False

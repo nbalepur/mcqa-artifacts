@@ -1,0 +1,14 @@
+Choice: ATP.
+Answer: True
+
+Choice: Male catheters are bigger than female catheters.
+Answer: False
+
+Choice: Opposition of the thumb by opponens policis is supplied by spinal root T1
+Answer: True
+
+Choice: 4
+Answer: False
+
+Choice: glycogen or glucose to fructose.
+Answer: False

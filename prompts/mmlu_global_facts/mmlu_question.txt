@@ -1,0 +1,19 @@
+Question: Which of the following pairs of statements are both true (as of 2019)?
+Choice: People tend to be pessimistic about their own future and the future of their nation or the world.
+Answer: False
+
+Question: As of 2019, about what percentage of Americans agree that the state is run for the benefit of all the people?
+Choice: 46%
+Answer: True
+
+Question: As of 2015, since 1990 forests have ____ in Europe and have ____ in Africa and the Americas.
+Choice: increased, decreased
+Answer: True
+
+Question: As of 2019, about what percentage of Russians say it is very important to have free media in our country without government/state censorship?
+Choice: 68%
+Answer: False
+
+Question: As of 2017, how many of the world’s 1-year-old children today have been vaccinated against some disease? *
+Choice: 40%
+Answer: False

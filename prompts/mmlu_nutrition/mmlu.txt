@@ -1,0 +1,14 @@
+Choice: The tea drinkers have lower risk of developing diabetes.
+Answer: False
+
+Choice: Consumers with phenylketonuria must avoid the consumption of the sweetener aspartame
+Answer: True
+
+Choice: Butyric acid, formed during colonic fibre fermentation stimulates "silencing" of the SLC5A8 tumour suppressor gene
+Answer: False
+
+Choice: The iodine content of organic milk is generally lower that the level in non-organic milk
+Answer: True
+
+Choice: Sulphonylureas
+Answer: False

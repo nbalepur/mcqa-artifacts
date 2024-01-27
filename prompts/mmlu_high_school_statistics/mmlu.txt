@@ -1,0 +1,14 @@
+Choice: Switching which variable is called x and which is called y changes the sign of the correlation.
+Answer: False
+
+Choice: There is insufficient information to answer this question.
+Answer: True
+
+Choice: For each sampled tree, whether it suffered more than 50 percent damage or at most 50 percent damage.
+Answer: True
+
+Choice: Mean 518 grams; standard deviation 7.0 grams
+Answer: False
+
+Choice: II, III
+Answer: False

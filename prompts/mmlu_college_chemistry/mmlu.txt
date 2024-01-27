@@ -1,0 +1,14 @@
+Choice: The atomic radii of the lanthanide elements increase across the period from La to Lu.
+Answer: True
+
+Choice: 10 mL
+Answer: False
+
+Choice: 4
+Answer: True
+
+Choice: an acid
+Answer: False
+
+Choice: PbH4 < SnH4 < CH4 < GeH4 < SiH4
+Answer: False

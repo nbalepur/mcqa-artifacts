@@ -1,0 +1,14 @@
+Choice: via protein transporters called GLUT4.
+Answer: True
+
+Choice: Muscle glycogen is broken down enzymatically to glucose-1-phosphate
+Answer: False
+
+Choice: All daughters of an affected male will be affected.
+Answer: True
+
+Choice: Decreasing volume, decreasing temperature
+Answer: False
+
+Choice: loss of electrolytes.
+Answer: False

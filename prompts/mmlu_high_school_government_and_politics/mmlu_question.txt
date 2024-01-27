@@ -1,0 +1,19 @@
+Question: Uncertainty over the limits to presidential power is caused primarily by the fact that
+Choice: the constitutional definition of those powers is broad and unspecific
+Answer: True
+
+Question: The term "budget deficit" refers to the
+Choice: amount of interest on the national debt
+Answer: False
+
+Question: Which of the following cases established the precedent that a defendant must be informed of the right to remain silent, the right to a lawyer, and protection from self-incrimination?
+Choice: Betts v. Brady
+Answer: False
+
+Question: Which of the following statements about cabinet departments is FALSE?
+Choice: Not every federal agency is a cabinet department.
+Answer: False
+
+Question: Which of the following best states an argument made by James Madison in The Federalist number 10?
+Choice: The negative effects of factionalism can be reduced by a republican government.
+Answer: True

@@ -1,0 +1,19 @@
+Question: Which of the following statements about the lanthanide elements is NOT true?
+Choice: The atomic radii of the lanthanide elements increase across the period from La to Lu.
+Answer: True
+
+Question: A 0.217 g sample of HgO (molar mass = 217 g) reacts with excess iodide ions according to the reaction shown above. Titration of the resulting solution requires how many mL of 0.10 M HCl to reach equivalence point?
+Choice: 10 mL
+Answer: False
+
+Question: Predict the number of lines in the EPR spectrum of a solution of 13C-labelled methyl radical (13CH3•), assuming the lines do not overlap.
+Choice: 4
+Answer: True
+
+Question: 3 Cl−(aq) + 4 CrO_4^2−(aq) + 23 H+(aq) → 3 HClO2(aq) + 4 Cr3+(aq) + 10 H2O(l). In the reaction shown above, Cl−(aq) behaves as
+Choice: an acid
+Answer: False
+
+Question: Which of the following lists the hydrides of group-14 elements in order of thermal stability, from lowest to highest?
+Choice: PbH4 < SnH4 < CH4 < GeH4 < SiH4
+Answer: False

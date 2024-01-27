@@ -1,0 +1,14 @@
+Choice: S=1, R=1
+Answer: True
+
+Choice: 10Ω
+Answer: False
+
+Choice: 1 mA.
+Answer: False
+
+Choice: 1 N.
+Answer: False
+
+Choice: 15 N.
+Answer: True

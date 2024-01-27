@@ -1,0 +1,14 @@
+Choice: $70,000
+Answer: False
+
+Choice: $13,000
+Answer: True
+
+Choice: $500
+Answer: False
+
+Choice: $13,500
+Answer: True
+
+Choice: Valuation and allocation
+Answer: False

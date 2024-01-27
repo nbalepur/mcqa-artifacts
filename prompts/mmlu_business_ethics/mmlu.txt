@@ -1,0 +1,14 @@
+Choice: Externalities, Power, Mutual dependence
+Answer: True
+
+Choice: Corporate social responsibility
+Answer: False
+
+Choice: Outside, Unlimited, Intermittently
+Answer: False
+
+Choice: Indirect action, Violent direct action, Non-violent direct-action Boycott
+Answer: True
+
+Choice: Boycotts, Buyalls, Blockchain technology, Charitable donations
+Answer: False

@@ -1,0 +1,19 @@
+Question: The rate of natural increase of a population is found by subtracting the
+Choice: crude birth rate from the crude death rate.
+Answer: False
+
+Question: During the third stage of the demographic transition model, which of the following is true?
+Choice: Birth rates decline and population growth rate is less rapid.
+Answer: True
+
+Question: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?
+Choice: Social problems of the central city spill over into the surrounding residential suburbs.
+Answer: False
+
+Question: The practice of hiring a foreign third-party service provider to run an operation is called
+Choice: maquiladoras.
+Answer: False
+
+Question: Which one of the following items is an example of nonmaterial culture?
+Choice: Dove symbol
+Answer: True

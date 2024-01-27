@@ -1,0 +1,19 @@
+Question: In a competitive labor market for housepainters, which of the following would increase the demand for housepainters?
+Choice: An increase in the construction of new houses.
+Answer: True
+
+Question: If the government subsidizes producers in a perfectly competitive market, then
+Choice: the consumer surplus will decrease
+Answer: False
+
+Question: The concentration ratio for a monopoly is
+Choice: 100
+Answer: True
+
+Question: Which of the following is true of a price floor?
+Choice: The price floor shifts the demand curve to the left.
+Answer: False
+
+Question: Which of the following is necessarily a characteristic of oligopoly?
+Choice: A homogenous product
+Answer: False

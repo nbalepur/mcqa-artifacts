@@ -1,0 +1,14 @@
+Choice: tell your client the pros and cons of each program you know about except for the one in which you are enrolled
+Answer: False
+
+Choice: the most frequently occurring number
+Answer: True
+
+Choice: individualism.
+Answer: True
+
+Choice: represents “mixed feelings” toward the therapist. 
+Answer: False
+
+Choice: have low correlations with each other and low correlations with the criterion
+Answer: False

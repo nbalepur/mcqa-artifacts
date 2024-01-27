@@ -1,0 +1,14 @@
+Choice: Phenoxybenzamine
+Answer: True
+
+Choice: right-on-right sacral torsion
+Answer: True
+
+Choice: Glutamate
+Answer: False
+
+Choice: Allergic rhinitis
+Answer: False
+
+Choice: anterior scalene
+Answer: False

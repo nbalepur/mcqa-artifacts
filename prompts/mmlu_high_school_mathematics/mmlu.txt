@@ -1,0 +1,14 @@
+Choice: 5
+Answer: False
+
+Choice: 1
+Answer: False
+
+Choice: 16
+Answer: False
+
+Choice: \frac{\sqrt{3}}{3}
+Answer: True
+
+Choice: 65
+Answer: True

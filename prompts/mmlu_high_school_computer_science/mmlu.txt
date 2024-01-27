@@ -1,0 +1,15 @@
+Choice: A refrigerator orders milk from an online delivery service when the milk in the refrigerator is almost gone.
+Answer: True
+
+Choice: The activities of a user browsing in an anonymous window will not be visible to people who monitor the user's network, such as the system administrator.
+Answer: False
+
+Choice: Error
+Answer: False
+
+Choice: November
+Answer: True
+
+Choice: Step 3: Increase the value of position by 1.
+ Step 4: Repeat steps 2 and 3 until the value of count is greater than 100.
+Answer: False

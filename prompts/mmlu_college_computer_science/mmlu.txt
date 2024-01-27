@@ -1,0 +1,14 @@
+Choice: (a + b)*c +(a + b)*d
+Answer: True
+
+Choice: 5
+Answer: False
+
+Choice: I, II, and III
+Answer: True
+
+Choice: 6
+Answer: False
+
+Choice: 1/25
+Answer: False

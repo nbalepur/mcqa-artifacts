@@ -1,0 +1,14 @@
+Choice: tu quoque
+Answer: False
+
+Choice: including more than one claim in the proposition and treating proof for one claim as proof for all the claims.
+Answer: False
+
+Choice: The middle term must be used in at least one premise in a universal or unqualified sense
+Answer: True
+
+Choice: Composition
+Answer: True
+
+Choice: poor sportsmanship
+Answer: False

@@ -1,0 +1,19 @@
+Question: SHA-1 has a message digest of
+Choice: 628 bits
+Answer: False
+
+Question: _____________ can modify data on your system – so that your system doesn’t run correctly or you can no longer access specific data, or it may even ask for ransom in order to give your access.
+Choice: IM – Trojans
+Answer: False
+
+Question: What is ethical hacking?
+Choice: Hacking systems (e.g., during penetration testing) to expose vulnerabilities so they can be fixed, rather than exploited
+Answer: True
+
+Question: Exploitation of the Heartbleed bug permits
+Choice: a format string attack
+Answer: False
+
+Question: The ____________ is anything which your search engine cannot search.
+Choice: Deep Web
+Answer: True

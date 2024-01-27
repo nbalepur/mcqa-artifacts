@@ -1,0 +1,14 @@
+Choice: during the first trimester
+Answer: True
+
+Choice: a strong ego
+Answer: False
+
+Choice: having alternating orgasms in different locations.
+Answer: False
+
+Choice: sexual intercourse
+Answer: True
+
+Choice: ejaculatory disorder
+Answer: False

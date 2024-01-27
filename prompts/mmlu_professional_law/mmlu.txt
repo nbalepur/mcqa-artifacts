@@ -1,0 +1,14 @@
+Choice: the statute is void for vagueness under the Fourteenth Amendment's due process clause.
+Answer: False
+
+Choice: The commerce clause.
+Answer: True
+
+Choice: Facts that have been asserted by individual political organizations.
+Answer: True
+
+Choice: grant relief, because the fence was in violation of the easement restriction. 
+Answer: False
+
+Choice: Because it was foreseeable that the father's promise would induce the creditor to forbear taking any action against the son, such forbearance was, as a matter of law, a bargained-for consideration for the father's promise. 
+Answer: False

@@ -1,0 +1,14 @@
+Choice: Can integrate into host chromosomes
+Answer: False
+
+Choice: Fragile viruses often visualised with RNA spewing from the inside
+Answer: True
+
+Choice: Data collection
+Answer: False
+
+Choice: Effective use of behavioral theory
+Answer: False
+
+Choice: Seroconverters
+Answer: True

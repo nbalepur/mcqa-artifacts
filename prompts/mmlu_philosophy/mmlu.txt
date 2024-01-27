@@ -1,0 +1,14 @@
+Choice: none of the above.
+Answer: False
+
+Choice: virtue.
+Answer: False
+
+Choice: undetermined will
+Answer: False
+
+Choice: pessimist
+Answer: True
+
+Choice: metaphysics
+Answer: True

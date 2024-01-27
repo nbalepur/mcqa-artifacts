@@ -1,0 +1,14 @@
+Choice: universal welfare
+Answer: False
+
+Choice: a puppet theatre
+Answer: True
+
+Choice: the increasing bureaucracy of the state has made religion only a marginal part of our lives
+Answer: False
+
+Choice: a dominant ideology that legitimates economic, political and cultural power
+Answer: True
+
+Choice: not all industrial disputes will be reported by the employer
+Answer: False

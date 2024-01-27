@@ -1,0 +1,14 @@
+Choice: 628 bits
+Answer: False
+
+Choice: IM – Trojans
+Answer: False
+
+Choice: Hacking systems (e.g., during penetration testing) to expose vulnerabilities so they can be fixed, rather than exploited
+Answer: True
+
+Choice: a format string attack
+Answer: False
+
+Choice: Deep Web
+Answer: True

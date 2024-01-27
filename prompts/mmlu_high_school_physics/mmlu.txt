@@ -1,0 +1,14 @@
+Choice: I and II only
+Answer: False
+
+Choice: The pressure is at an antinode, but the particle displacement is at a node.
+Answer: True
+
+Choice: 2:00 AM
+Answer: False
+
+Choice: 240 W
+Answer: True
+
+Choice: 22.5 J
+Answer: False

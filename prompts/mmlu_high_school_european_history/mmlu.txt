@@ -1,0 +1,14 @@
+Choice: Baron Montesquieu
+Answer: True
+
+Choice: The conquest of Europe by Napoleon led to the creation of new factions and shifted the European balance of power.
+Answer: False
+
+Choice: Capitalist
+Answer: False
+
+Choice: They brought about almost immediate hardships for the Dutch economy as their dominance of overseas trade quickly ended.
+Answer: False
+
+Choice: end various forms of corruption plaguing the Church in England
+Answer: True

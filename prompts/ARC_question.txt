@@ -1,0 +1,99 @@
+Question: Which is a hypothesis that can be easily tested?
+Choice: When the Moon is full, the tides will be at their highest.
+Answer: True
+
+Question: Two students are asked to make a chart on the electromagnetic spectrum. Reading left to right, one student's chart shows the spectrum from gamma rays to radio waves, while the other student's chart shows the opposite. If the teacher says that both charts are correct, then
+Choice: it does not matter how the students label their charts.
+Answer: False
+
+Question: A star is a celestial object that produces its own heat and light. Which of these celestial objects is the closest star to Earth?
+Choice: the moon
+Answer: False
+
+Question: How did scientists arrive at the theory of plate tectonics?
+Choice: by determining the composition of limestone deposits
+Answer: False
+
+Question: Stout beardfish live in the deep ocean. They live so far down that there is no light. Which characteristic would best help stout beardfish to survive in the dark?
+Choice: a mouth full of bristles
+Answer: False
+
+Question: One effect of ocean pollution is that it can reduce populations of phytoplankton and algae. The reduction of these populations might have which impact on an ecosystem?
+Choice: decreasing the amount of oxygen being produced
+Answer: True
+
+Question: Animals may fight, make threatening sounds, and act aggressively toward members of the same species. These behaviors usually occur as the result of
+Choice: competition
+Answer: True
+
+Question: The equation for the synthesis of water is given below. 2H_{2} + O_{2} -> 2H_{2}O How many grams of oxygen gas are needed to produce 36.0 grams of water?
+Choice: 40.0 grams
+Answer: False
+
+Question: Which feature of some young birds helps them avoid becoming prey before they learn to fly?
+Choice: chirping loudly in imitation of their parents
+Answer: False
+
+Question: A pan of soup is being heated on an electric stove. A metal spoon is used to occasionally stir the soup. Which of the following is an example of heat being transferred by convection?
+Choice: heating the soup
+Answer: True
+
+Question: How do the sprouts of seeds buried in complete dark in the soil find their way to the surface of the soil?
+Choice: They grow opposite the direction of the pull of gravity.
+Answer: True
+
+Question: Plants have cells, tissues, organs, and systems that allow them to function as complete organisms. Which parts of a plant function as an organ?
+Choice: leaves
+Answer: True
+
+Question: A mouse is homozygous for black fur (BB). The other parent is heterozygous for black fur with a recessive trait for brown fur ( Bb ). If black is the dominant trait, what percentage of the offspring will be brown?
+Choice: 100%
+Answer: False
+
+Question: The burning of fossil fuels has increased the carbon dioxide content of the atmosphere. What is a possible effect that the increased amount of carbon dioxide is likely to have on our planet?
+Choice: A warmer climate
+Answer: True
+
+Question: The gametes of human males and females have the same number of chromosomes. Which best describes what happens to the chromosomes when typical male and female gametes combine to produce offspring?
+Choice: The number of chromosomes doubles.
+Answer: True
+
+Question: A drop of red food coloring is added to a bowl of water. Several minutes later, all of the water is red. Which of these describes the change that took place?
+Choice: transfusion
+Answer: False
+
+Question: Food webs show feeding relationships among different types of organisms. Those organisms each have a specific niche. Which of the following best describes a function of decomposers in food webs?
+Choice: to convert solar energy into food
+Answer: False
+
+Question: Changes should be made to a scientific theory when
+Choice: the theory is more than 100 years old.
+Answer: False
+
+Question: Why is it better to wear a white T-shirt than a dark blue T-shirt in the summer?
+Choice: Light-colored clothes reflect more sunlight than dark-colored clothes.
+Answer: True
+
+Question: A 72 W navigation unit on a commercial aircraft has a 24 V power supply and uses 3 A of electric current. What is the electrical resistance of the navigation unit?
+Choice: 8 ohms
+Answer: True
+
+Question: Which trait do children most likely inherit from their parents?
+Choice: personality
+Answer: False
+
+Question: A bird has just hatched from an egg. Which of the following stages most likely comes next in the life cycle of the bird?
+Choice: death
+Answer: False
+
+Question: Which graph is best to present data collected on yearly water usage in the United States?
+Choice: line graph
+Answer: True
+
+Question: In the carbon cycle, carbon moves from reservoir to reservoir as various organic and inorganic processes occur on Earth. Only a small percentage of the global carbon is moved in this cycle each year. The remaining carbon is stored in these reservoirs. Which reservoir contains the greatest amount of stored carbon?
+Choice: the deep ocean
+Answer: True
+
+Question: How does acid rain most likely affect forests?
+Choice: Animals have more food sources.
+Answer: False

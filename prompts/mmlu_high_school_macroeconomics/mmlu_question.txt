@@ -1,0 +1,19 @@
+Question: Which of the following is not included in the U.S. GDP?
+Choice: The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.
+Answer: False
+
+Question: The short-run Phillips curve indicates a
+Choice: inverse relation between unemployment and inflation
+Answer: True
+
+Question: A federal deficit occurs when
+Choice: federal spending exceeds federal tax revenues.
+Answer: True
+
+Question: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?
+Choice: Lowering tariffs
+Answer: False
+
+Question: Which of the following policies best describes supply-side fiscal policy?
+Choice: Higher taxes on household income
+Answer: False

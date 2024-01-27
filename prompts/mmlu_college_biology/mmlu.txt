@@ -1,0 +1,14 @@
+Choice: They lack paired, jointed appendages.
+Answer: False
+
+Choice: 20/400
+Answer: False
+
+Choice: the human and bird belong to a clade
+Answer: True
+
+Choice: a water-pressure potential gradient
+Answer: True
+
+Choice: Spliceosomes
+Answer: False

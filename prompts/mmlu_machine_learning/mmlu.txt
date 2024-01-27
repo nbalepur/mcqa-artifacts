@@ -1,0 +1,14 @@
+Choice: 1.0/5
+Answer: False
+
+Choice: random crop and horizontal flip
+Answer: True
+
+Choice: My method achieves a test error lower than all previous methods! (Footnote: When regularisation parameter λ is chosen so as to minimise cross-validaton error.)
+Answer: True
+
+Choice: between 100 and 500 examples
+Answer: False
+
+Choice: It is too computationally expensive.
+Answer: False

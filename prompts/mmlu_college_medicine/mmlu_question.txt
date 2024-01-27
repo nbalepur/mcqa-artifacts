@@ -1,0 +1,19 @@
+Question: Glucose is transported into the muscle cell:
+Choice: via protein transporters called GLUT4.
+Answer: True
+
+Question: Which of the following is not a true statement?
+Choice: Muscle glycogen is broken down enzymatically to glucose-1-phosphate
+Answer: False
+
+Question: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?
+Choice: All daughters of an affected male will be affected.
+Answer: True
+
+Question: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25°C. Which two variables will both increase the pressure of the system, if all other variables are held constant?
+Choice: Decreasing volume, decreasing temperature
+Answer: False
+
+Question: An expected side effect of creatine supplementation is:
+Choice: loss of electrolytes.
+Answer: False

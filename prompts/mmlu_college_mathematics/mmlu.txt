@@ -1,0 +1,14 @@
+Choice: ST - TS is the identity map of V onto itself.
+Answer: True
+
+Choice: 2
+Answer: False
+
+Choice: II only
+Answer: True
+
+Choice: 33/2
+Answer: False
+
+Choice: -5
+Answer: False

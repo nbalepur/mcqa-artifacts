@@ -1,0 +1,19 @@
+Question: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque
+Choice: I and II only
+Answer: False
+
+Question: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave’s properties at the closed end of the pipe?
+Choice: The pressure is at an antinode, but the particle displacement is at a node.
+Answer: True
+
+Question: A photocell of work function ϕ = 2eV is connected to a resistor in series. Light of frequency f = 1 × 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?
+Choice: 2:00 AM
+Answer: False
+
+Question: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?
+Choice: 240 W
+Answer: True
+
+Question: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 µC, from the point (0, 4 meters) to the point (3 meters, 0)?
+Choice: 22.5 J
+Answer: False

@@ -1,0 +1,24 @@
+Question: In a cohort study, the risk ratio of developing diabetes was 0.86 when comparing consumers of tea (the exposed) to those who did not drink tea (the unexposed). Which one statement is correct (according to knowledge in 2020)?
+
+Choice: The tea drinkers have lower risk of developing diabetes.
+Answer: False
+
+Question: Which of the following statements is correct (according to knowledge in 2020)?
+
+Choice: Consumers with phenylketonuria must avoid the consumption of the sweetener aspartame
+Answer: True
+
+Question: Which of the following is the most plausible explanation for the protective effect of dietary fibre against cancer of the colon, as of 2020?
+
+Choice: Butyric acid, formed during colonic fibre fermentation stimulates "silencing" of the SLC5A8 tumour suppressor gene
+Answer: False
+
+Question: Which of the following statements about iodine is correct, as of 2020?
+
+Choice: The iodine content of organic milk is generally lower that the level in non-organic milk
+Answer: True
+
+Question: What is the first-line drug for patients with type 2 diabetes and obesity, as of 2020?
+
+Choice: Sulphonylureas
+Answer: False

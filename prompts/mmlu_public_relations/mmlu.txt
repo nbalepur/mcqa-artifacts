@@ -1,0 +1,14 @@
+Choice: Say 'I don't know' and promise to provide the information later.
+Answer: True
+
+Choice: Post anonymous comments on blogs to combat this information.
+Answer: False
+
+Choice: There was a coordinated media response.
+Answer: False
+
+Choice: Defining the program
+Answer: True
+
+Choice: Oxfam
+Answer: False

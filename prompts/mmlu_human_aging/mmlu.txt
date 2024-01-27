@@ -1,0 +1,14 @@
+Choice: A Hispanic man
+Answer: False
+
+Choice: Memorial memorial
+Answer: False
+
+Choice: Texas
+Answer: True
+
+Choice: Carbon monoxide
+Answer: False
+
+Choice: An older Asian American woman
+Answer: True

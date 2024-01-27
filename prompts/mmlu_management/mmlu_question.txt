@@ -1,0 +1,19 @@
+Question: What are the two main dimensions of the Ohio Studies into leadership?
+Choice: Starting position and end position
+Answer: False
+
+Question: Hygiene factors are associated with which writer?
+Choice: Frederick Hertzberg
+Answer: True
+
+Question: Which element of the cultural web forms regalia?
+Choice: Control systems
+Answer: False
+
+Question: What characteristic is not a key feature of the 'open systems' model of management?
+Choice: Innovation
+Answer: False
+
+Question: How can organisational structures that are characterised by democratic and inclusive styles of management be described?
+Choice: Flat
+Answer: True

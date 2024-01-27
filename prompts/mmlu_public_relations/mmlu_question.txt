@@ -1,0 +1,19 @@
+Question: What should a public relations media practitioner do if she does not know the answer to a reporter's question?
+Choice: Say 'I don't know' and promise to provide the information later.
+Answer: True
+
+Question: In issues management, what is the most proactive approach to addressing negative or misleading information posted online about your organization?
+Choice: Post anonymous comments on blogs to combat this information.
+Answer: False
+
+Question: Which of these statements is true of the Vatican in 2010 at the time of the accusations of child abuse cover-ups?
+Choice: There was a coordinated media response.
+Answer: False
+
+Question: At which stage in the planning process would a situation analysis be carried out?
+Choice: Defining the program
+Answer: True
+
+Question: Earth Hour was a campaign launched by which organization?
+Choice: Oxfam
+Answer: False

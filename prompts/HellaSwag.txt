@@ -1,0 +1,29 @@
+Choice: skate throughout the town performing tricks.
+Answer: True
+
+Choice: [title] Begin by plug one red end of the cable in the red place on the cd-player where it says " output ". [title] Start to plug the gray one in the white place.
+Answer: True
+
+Choice: grab some green fruit and put it in the polka dot salad.
+Answer: False
+
+Choice: You can always wear your hair down, but don't wear it in braids, lobs, pigtails or tight ponytails. You'll have to experiment a bit before finding the one you like.
+Answer: False
+
+Choice: [step] This will warm you up in one of two ways. First, stand, and put your knees on the floor.
+Answer: False
+
+Choice: removes his hand from his throat, he takes another puff of the hookah and blows it out again.
+Answer: True
+
+Choice: If you're going to try to resolve your dispute in private, get the arbitrator's approval of the agreement. However, you may still have other options.
+Answer: False
+
+Choice: [step] It needs to be tall, so a martini glass, a wide brimmed glass or vase or something similar is ideal. [title] Find a single plate of a decent size.
+Answer: True
+
+Choice: is talking about rolling a bottle of detergent and she sprays it on the clothing.
+Answer: False
+
+Choice: washes and dry their hands leaving the water on which and adult turns off.
+Answer: True

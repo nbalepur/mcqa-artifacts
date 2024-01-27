@@ -1,0 +1,14 @@
+Choice: 5
+Answer: False
+
+Choice: Constant volume
+Answer: True
+
+Choice: 2.4 V
+Answer: True
+
+Choice: 5
+Answer: False
+
+Choice: mass
+Answer: False

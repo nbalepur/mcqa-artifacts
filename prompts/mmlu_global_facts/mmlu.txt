@@ -1,0 +1,14 @@
+Choice: People tend to be pessimistic about their own future and the future of their nation or the world.
+Answer: False
+
+Choice: 46%
+Answer: True
+
+Choice: increased, decreased
+Answer: True
+
+Choice: 68%
+Answer: False
+
+Choice: 40%
+Answer: False

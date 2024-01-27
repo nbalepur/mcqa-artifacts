@@ -1,0 +1,19 @@
+Question: What types of force does Article 2(4) of the UN Charter prohibit?
+Choice: Article 2(4) encompasses force directed only against a State's territorial integrity
+Answer: False
+
+Question: What is the judge ad hoc?
+Choice: If a party to a contentious case before the ICJ does not have a national sitting as judge, it is entitled to nominate someone as a judge solely for that case, with the title of judge ad hoc
+Answer: True
+
+Question: Would a reservation to the definition of torture in the ICCPR be acceptable in contemporary practice?
+Choice: This is an unacceptable reservation because it contravenes the object and purpose of the ICCPR
+Answer: True
+
+Question: When 'consent' can serve as a circumstance precluding the wrongfulness of a State conduct?
+Choice: Consent can serve as a circumstance precluding the wrongfulness whenever it is given
+Answer: False
+
+Question: How the consent to be bound of a State may be expressed?
+Choice: The consent of a State to be bound is expressed by whatever means they choose
+Answer: False

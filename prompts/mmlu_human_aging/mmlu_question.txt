@@ -1,0 +1,19 @@
+Question: Which of the following persons is more likely to remain at home alone, as of 2019?
+Choice: A Hispanic man
+Answer: False
+
+Question: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the
+Choice: Memorial memorial
+Answer: False
+
+Question: When older adults move to a new state after retirement, which of the following is the more likely destination?
+Choice: Texas
+Answer: True
+
+Question: Which element in tobacco smoke is responsible for cancers?
+Choice: Carbon monoxide
+Answer: False
+
+Question: All other things being equal, which of the following persons is more likely to show osteoporosis?
+Choice: An older Asian American woman
+Answer: True

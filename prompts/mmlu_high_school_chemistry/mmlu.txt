@@ -1,0 +1,14 @@
+Choice: SO2
+Answer: True
+
+Choice: PCl4F
+Answer: True
+
+Choice: All hydroxides are soluble
+Answer: False
+
+Choice: 7.78
+Answer: False
+
+Choice: 0.500 mole
+Answer: False

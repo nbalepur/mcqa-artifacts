@@ -1,0 +1,14 @@
+Choice: Buddhism
+Answer: False
+
+Choice: Decolonization
+Answer: True
+
+Choice: Social acceptance of child labor
+Answer: False
+
+Choice: Expanding tensions between religious sects
+Answer: True
+
+Choice: A breakdown in trade routes through the collapse of the established state structure
+Answer: False

@@ -1,0 +1,14 @@
+Choice: The second and third pharyngeal arches
+Answer: True
+
+Choice: None of the above
+Answer: True
+
+Choice: are composed of respiratory epithelium.
+Answer: False
+
+Choice: negative overjet of the upper central incisors.
+Answer: False
+
+Choice: Pleural
+Answer: False

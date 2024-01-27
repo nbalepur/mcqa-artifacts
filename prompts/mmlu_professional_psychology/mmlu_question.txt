@@ -1,0 +1,19 @@
+Question: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to
+Choice: tell your client the pros and cons of each program you know about except for the one in which you are enrolled
+Answer: False
+
+Question: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?
+Choice: the most frequently occurring number
+Answer: True
+
+Question: In terms of Hofstede’s (1980) five cultural dimensions, the United States scores at the top of the scale on:
+Choice: individualism.
+Answer: True
+
+Question: Carl Jung believed that a client's transference:
+Choice: represents “mixed feelings” toward the therapist. 
+Answer: False
+
+Question: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors
+Choice: have low correlations with each other and low correlations with the criterion
+Answer: False

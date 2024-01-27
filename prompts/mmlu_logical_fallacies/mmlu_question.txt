@@ -1,0 +1,19 @@
+Question: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?
+Choice: tu quoque
+Answer: False
+
+Question: The complex question fallacy consists of
+Choice: including more than one claim in the proposition and treating proof for one claim as proof for all the claims.
+Answer: False
+
+Question: Which of the following is true of a valid categorical syllogism?
+Choice: The middle term must be used in at least one premise in a universal or unqualified sense
+Answer: True
+
+Question: Arguing that what is true of the parts must be true of the whole is the fallacy of...
+Choice: Composition
+Answer: True
+
+Question: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of
+Choice: poor sportsmanship
+Answer: False

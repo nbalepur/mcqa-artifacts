@@ -1,0 +1,19 @@
+Question: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.
+Choice: Externalities, Power, Mutual dependence
+Answer: True
+
+Question: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.
+Choice: Corporate social responsibility
+Answer: False
+
+Question: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.
+Choice: Outside, Unlimited, Intermittently
+Answer: False
+
+Question: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.
+Choice: Indirect action, Violent direct action, Non-violent direct-action Boycott
+Answer: True
+
+Question: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .
+Choice: Boycotts, Buyalls, Blockchain technology, Charitable donations
+Answer: False

@@ -1,0 +1,14 @@
+Choice: Transformation
+Answer: False
+
+Choice: An amino acid change away from the active site cannot alter the enzyme’s substrate specificity.
+Answer: False
+
+Choice: Ribosome–rough ER–Golgi apparatus–secretory vesicle–plasma membrane
+Answer: True
+
+Choice: Fibroblast cells
+Answer: True
+
+Choice: the flippers of a whale and the arms of a man
+Answer: False

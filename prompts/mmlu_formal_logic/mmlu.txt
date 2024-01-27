@@ -1,0 +1,14 @@
+Choice: ~Pd
+Answer: False
+
+Choice: Bglh
+Answer: True
+
+Choice: Marina is a dancer. No weakling is a dancer. Either everything is a weakling or Georgia plays volleyball. So something plays volleyball.
+Answer: True
+
+Choice: Contradictory
+Answer: False
+
+Choice: L • (H ∨ I)
+Answer: False

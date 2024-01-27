@@ -1,0 +1,14 @@
+Choice: display his generosity to the common people, since they were allowed to live in the temples.
+Answer: False
+
+Choice: a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.
+Answer: False
+
+Choice: endless wars between neighboring Mayan city-states.
+Answer: False
+
+Choice: a great amount of species diversity, or a single species that exhibited a lot of diversity.
+Answer: True
+
+Choice: just under 1000 cc
+Answer: True

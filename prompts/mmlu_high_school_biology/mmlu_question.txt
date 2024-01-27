@@ -1,0 +1,19 @@
+Question: Which of the following is not a way to form recombinant DNA?
+Choice: Transformation
+Answer: False
+
+Question: A mutation in a bacterial enzyme changed a previously polar amino acid into a nonpolar amino acid. This amino acid was located at a site distant from the enzyme’s active site. How might this mutation alter the enzyme’s substrate specificity?
+Choice: An amino acid change away from the active site cannot alter the enzyme’s substrate specificity.
+Answer: False
+
+Question: In animal cells, which of the following represents the most likely pathway that a secretory protein takes as it is synthesized in a cell?
+Choice: Ribosome–rough ER–Golgi apparatus–secretory vesicle–plasma membrane
+Answer: True
+
+Question: Which of the following is not known to be involved in the control of cell division?
+Choice: Fibroblast cells
+Answer: True
+
+Question: Homologous structures are often cited as evidence for the process of natural selection. All of the following are examples of homologous structures EXCEPT
+Choice: the flippers of a whale and the arms of a man
+Answer: False

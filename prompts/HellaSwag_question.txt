@@ -1,0 +1,39 @@
+Question: Skaters skate through and shop in new bedford, ma. skaters
+Choice: skate throughout the town performing tricks.
+Answer: True
+
+Question: [header] How to install a pro dj mixer and speakers [title] Unpack your cd-players, mixer, pick-up, and put them in a flat area to start connecting the devices together. [title] Search for your cables that have on both ends of the cable input and output. [step] Normally it comes together with your mixer.
+Choice: [title] Begin by plug one red end of the cable in the red place on the cd-player where it says " output ". [title] Start to plug the gray one in the white place.
+Answer: True
+
+Question: The person chops the fruit again and cuts off the chopped bit. The person picks up a slice from the bowl and cuts it. we
+Choice: grab some green fruit and put it in the polka dot salad.
+Answer: False
+
+Question: [header] How to create a basic stylish wardrobe as a teen girl [title] Go to a store such as gap, american eagle or old navy for some basic, solid-colored shirts. [step] Sometimes you can find a great sale for those. V-necks and crew-necks are useful, but try as many styles as you want.
+Choice: You can always wear your hair down, but don't wear it in braids, lobs, pigtails or tight ponytails. You'll have to experiment a bit before finding the one you like.
+Answer: False
+
+Question: [header] How to improve your splits [title] Warm up. [step] Go for a short run, jog in place, or do fifty jumping-jacks. [title] Sit down on the floor.
+Choice: [step] This will warm you up in one of two ways. First, stand, and put your knees on the floor.
+Answer: False
+
+Question: A young man is sitting down on a brown couch blowing out smoke from a hookah. After the smoke clears, he begins talking excessively and making several hand motions. when he
+Choice: removes his hand from his throat, he takes another puff of the hookah and blows it out again.
+Answer: True
+
+Question: [header] How to choose a private arbitrator [title] Talk to the other party. [step] Generally, both parties must agree to submit a dispute to arbitration. If your dispute isn't related to a contract that contains an arbitration clause, you'll need to get the other party's permission before you start looking for private arbitrators.
+Choice: If you're going to try to resolve your dispute in private, get the arbitrator's approval of the agreement. However, you may still have other options.
+Answer: False
+
+Question: [header] How to make a cupcake stand [title] Find a base layer. [step] A platter or plate is ideal. [title] Find a suitable pillar.
+Choice: [step] It needs to be tall, so a martini glass, a wide brimmed glass or vase or something similar is ideal. [title] Find a single plate of a decent size.
+Answer: True
+
+Question: A woman in a yellow shirt is holding a bottle in her hand. she
+Choice: is talking about rolling a bottle of detergent and she sprays it on the clothing.
+Answer: False
+
+Question: We see an animated opening screen. a child
+Choice: washes and dry their hands leaving the water on which and adult turns off.
+Answer: True

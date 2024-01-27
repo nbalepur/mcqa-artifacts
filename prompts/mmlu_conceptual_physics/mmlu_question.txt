@@ -1,0 +1,19 @@
+Question: Compared with the mass of a uranium atom undergoing fission, the combined masses of the products after fission are
+Choice: the same
+Answer: False
+
+Question: Things that are equivalent according to the equivalence principle are
+Choice: a traveling twin and a stay-at-home twin.
+Answer: False
+
+Question: Colors in a soap bubble result from light
+Choice: interference
+Answer: True
+
+Question: A model airplane flies slower when flying into the wind and faster with wind at its back. When launched at right angles to the wind a cross wind its groundspeed compared with flying in still air is
+Choice: greater
+Answer: True
+
+Question: Which of these three elements has the most mass per nucleon?
+Choice: Iron
+Answer: False

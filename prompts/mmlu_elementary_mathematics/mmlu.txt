@@ -1,0 +1,14 @@
+Choice: 5 ones
+Answer: False
+
+Choice: The next two numbers in the pattern will be an even number then an odd number.
+Answer: False
+
+Choice: Divide 30 by 5 to find 6 teams.
+Answer: True
+
+Choice: 749
+Answer: False
+
+Choice: (5 x 5) + (5 x 4)
+Answer: True

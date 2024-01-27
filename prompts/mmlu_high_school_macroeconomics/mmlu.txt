@@ -1,0 +1,14 @@
+Choice: The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.
+Answer: False
+
+Choice: inverse relation between unemployment and inflation
+Answer: True
+
+Choice: federal spending exceeds federal tax revenues.
+Answer: True
+
+Choice: Lowering tariffs
+Answer: False
+
+Choice: Higher taxes on household income
+Answer: False
