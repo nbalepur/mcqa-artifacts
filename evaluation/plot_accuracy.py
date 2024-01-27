@@ -125,7 +125,6 @@ def convert_raw_text(rt):
         return 'C'
     if rt in {'(D)', '(4)'}:
         return 'D' 
-    #print(f"ERROR: Raw text could not be converted: {rt_old}")
     return 'Z'
 
 fig, axs_ = plt.subplots(1, 3, figsize=(14, 3))
@@ -135,8 +134,6 @@ except:
     axs = [axs_]
     axs_ = [[axs_]]
 idx_ = 0
-
-#DatasetName.ARC, DatasetName.HellaSwag, DatasetName.Winogrande,
 
 random_guess_accuracy, majority_accuracy = dict(), dict()
 
@@ -175,7 +172,6 @@ for dataset_idx, dataset in enumerate(DATASETS):
                     freq[a] = freq.get(a, 0) + 1
                 v = list(freq.values())
                 max_item = max(freq.items(), key = lambda item: item[1])[0]
-                #print(dataset, max(v) / sum(v))
                 majority_arr_ = [max_item for _ in range(len(questions))]
                 majority_arr = [int(majority_arr_[m_idx] == answer_letters[m_idx]) for m_idx in range(len(majority_arr_))]
                 majority_accuracy[dataset] = max(v) / sum(v)

@@ -5,7 +5,6 @@ import pickle
 import datasets
 import json
 from transformers import pipeline
-from langchain.llms import HuggingFacePipeline
 import torch
 from transformers import AutoTokenizer
 import transformers
