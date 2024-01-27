@@ -1,4 +1,4 @@
-# Multiple Choice Question Answering Artifacts (IN PROGRESS)
+# Multiple Choice Question Answering Artifacts
 
 This repository is the official implementation of the in-progress paper: "Large Language Models Exploit Artifacts in Multiple Choice Question Answering"
 
@@ -33,7 +33,37 @@ There are six relevant files:
 * `/model/run_hf_question.py`: Code to run the second step of the inferring the question strategy and the random question prompt
 * `/model/run_hf_question_remote.py`: Version of `run_hf_question.py` that works with models on the huggingface hub where you need to trust remote code (i.e. Phi)
 
+Samples bash scripts for `run_hf.py`, `run_hf_remote.py`, `run_hf_question.py` and `run_hf_question_remote.py` can be found in the `/scripts/` folder. All of these files require the following arguments, which are detailed in the bash scripts:
+- `model_name`: Nickname of the model
+- `model_name_hf`: Huggingface model name
+- `experiments`: List of experiments to run, identified by ProomptType enum
+- `datasets`: List of datasets to run, identified by DatasetName enum
+- `partition`: Partition of the dataset to run (e.g. `full`, `first_half`)
+- `hf_token`:  huggingface token (for downloading gated models
+- `load_in_8bit`: load the model in 8bit? ("False" or "True")
+- `load_in_4bit`: load the model in 4bit? ("False" or "True")
+- `use_20_fewshot`: use a 20-shot prompt? (only applies to ARC, as it it normally 25-shot)
+- `res_dir`: Directory pointing to the results folder
+- `prompt_dir`: Directory pointing to the prompt folder
+- `cache_dir`: Directory pointing to the cache folder for saving the downloaded models
+
+In addition, `run_hf_question.py` and `run_hf_question_remote.py` have the extra parameter:
+- `use_random_question`: Should the two-step question in "Inferring the Question" be a randomly-generated question or a model-generated question? ("True or "False")
+
+To run `extract_generated_questions.py` and `extract_random_questions.py`, it is best to specify the following parameters at the top of the file:
+- `res_dir`: Directory pointing to the results folder
+- `DATASETS`: List of datasets to extract the questions from
+- `MODELS`: Models to extract the questions from
 
 ## Evaluation Usage
 
+There are two relevant files:
+* `/evaluation/plot_accuracy.py`: Create bar charts for all models except the independent classification prompts
+* `/evaluation/plot_accuracy_individual.py`: Create bar charts for only the independent classification prompts
 
+The files use the following parameters specified at the top of the file:
+- `res_prefix`: Directory pointing to the results folder
+- `out_dir`: Output directory to save the plot
+
+The file `plot_accuracy.py` also has the following parameter:
+- `EXPERIMENTS`: List of experiments to show in the bar chart
