@@ -7,14 +7,15 @@ import os
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'model'))
 from data_loader import create_data_evaluation, DatasetName
 
-# specify models, datasets, and the results directory
+# specify models, dataset directory (huggingface), datasets, and the results directory
 res_dir = ...
+ds_dir = ...
 MODELS = ['llama 70b', 'falcon 40b', 'mixtral 7b']
 DATASETS = [DatasetName.ARC, DatasetName.HellaSwag, DatasetName.mmlu]
 
 
 pt = 'artifact_choices_cot'
-ds = datasets.load_dataset('nbalepur/mcqa_artifacts')
+ds = datasets.load_dataset(ds_dir)
 
 def check_any_match(l1, l2):
     for i in range(len(l1)):

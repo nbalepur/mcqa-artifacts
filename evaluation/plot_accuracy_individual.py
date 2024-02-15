@@ -2,6 +2,8 @@
 res_prefix = ...
 # output directory of the plot
 out_dir = ...
+# dataset directory (huggingface)
+ds_dir = ...
 
 
 import sys
@@ -81,7 +83,7 @@ EXPERIMENTS = [PromptType.normal, 'ind_choice_with_question_even', PromptType.ar
 
 
 import datasets
-ds = datasets.load_dataset('nbalepur/mcqa_artifacts')
+ds = datasets.load_dataset(ds_dir)
 
 reported_res = {'llama 7b': {DatasetName.ARC: 0.5307, DatasetName.HellaSwag: 0.7859, DatasetName.mmlu: 0.3876, DatasetName.Winogrande: 0.7403},
                 'llama 13b': {DatasetName.ARC: 0.5939, DatasetName.HellaSwag: 0.8213, DatasetName.mmlu: 0.5577, DatasetName.Winogrande: 0.7664},

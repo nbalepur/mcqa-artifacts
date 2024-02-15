@@ -111,6 +111,12 @@ def setup():
         help="Absolute directory of the output results folder",
         default="False",
     )
+    parser.add_argument(
+        "--ds_dir",
+        type=str,
+        help="Directory to huggingface dataset",
+        default="",
+    )
 
     args = parser.parse_args()
     print(args)
@@ -129,7 +135,7 @@ def setup():
     hf_token = args.hf_token
     HfFolder.save_token(hf_token)
 
-    return dataset_names, prompt_types, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_20_fewshot, partition, args.prompt_dir, args.res_dir, args.cache_dir
+    return dataset_names, prompt_types, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_20_fewshot, partition, args.prompt_dir, args.res_dir, args.cache_dir, args.ds_dir
 
 # =========================================== Load Model ===========================================
 
@@ -184,10 +190,10 @@ def generate_text(prompt, stop_token):
     response = tokenizer.batch_decode(outputs[:, inputs.input_ids.shape[1]:], skip_special_tokens=True)[0]
     return response[:-len(stop_token)].strip()
 
-def run_inference(dataset_names, prompt_types, model_name, partition, use_20_fewshot, pipe, tokenizer, prompt_dir, res_dir):
+def run_inference(dataset_names, prompt_types, model_name, partition, use_20_fewshot, pipe, tokenizer, prompt_dir, res_dir, ds_dir):
 
     # load data
-    ds = datasets.from_pretrained('nbalepur/mcqa_artifacts')
+    ds = datasets.from_pretrained(ds_dir)
 
     for dataset_name in dataset_names[0]:
 
@@ -238,10 +244,10 @@ def run_inference(dataset_names, prompt_types, model_name, partition, use_20_few
 if __name__ == '__main__':
     
     # set up arguments
-    dataset_names, prompt_types, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_20_fewshot, half, prompt_dir, res_dir, cache_dir = setup()
+    dataset_names, prompt_types, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_20_fewshot, half, prompt_dir, res_dir, cache_dir, ds_dir = setup()
 
     # get the model
     model, tokenizer = load_model(hf_model_name, load_in_4bit, load_in_8bit, cache_dir)
 
     # run inference
-    run_inference(dataset_names, prompt_types, model_name, half, use_20_fewshot, model, tokenizer, prompt_dir, res_dir)
+    run_inference(dataset_names, prompt_types, model_name, half, use_20_fewshot, model, tokenizer, prompt_dir, res_dir, ds_dir)

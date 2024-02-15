@@ -24,8 +24,6 @@ res_dir=".../mcqa-artifacts/results" # Results folder directory
 prompt_dir=".../mcqa-artifacts/prompts" # Prompt folder directory
 cache_dir=... # Cache directory to save the model
 
-
-
 datasets_str=$(IFS=" "; echo "${datasets[*]}")
 experiments_str=$(IFS=" "; echo "${experiments[*]}")
 

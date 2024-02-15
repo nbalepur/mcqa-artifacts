@@ -8,6 +8,8 @@ EXPERIMENTS = ...
 res_prefix = ...
 # output directory of the plot
 out_dir = ...
+# dataset directory (huggingface)
+ds_dir = ...
 
 import sys
 import datasets
@@ -107,7 +109,7 @@ def format_dataset(ds):
     else:
         return ds.value
 
-ds = datasets.load_dataset('nbalepur/mcqa_artifacts')
+ds = datasets.load_dataset(ds_dir)
 
 def convert_raw_text(rt):
     if rt == None:

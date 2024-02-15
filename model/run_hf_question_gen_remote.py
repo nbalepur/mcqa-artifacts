@@ -117,6 +117,12 @@ def setup():
         help="Absolute directory of the output results folder",
         default="False",
     )
+    parser.add_argument(
+        "--ds_dir",
+        type=str,
+        help="Directory to huggingface dataset",
+        default="",
+    )
 
     args = parser.parse_args()
     print(args)
@@ -137,7 +143,7 @@ def setup():
     hf_token = args.hf_token
     HfFolder.save_token(hf_token)
 
-    return dataset_names, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_random_question, use_20_fewshot, partition, args.prompt_dir, args.res_dir, args.cache_dir
+    return dataset_names, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_random_question, use_20_fewshot, partition, args.prompt_dir, args.res_dir, args.cache_dir, args.ds_dir
 
 # =========================================== Load Model ===========================================
 
@@ -191,10 +197,10 @@ def generate_text(prompt, stop_token):
     response = tokenizer.batch_decode(outputs[:, inputs.input_ids.shape[1]:], skip_special_tokens=True)[0]
     return response[:-len(stop_token)].strip()
 
-def run_inference(dataset_names, model_name, partition, use_random_question, use_20_fewshot, pipe, tokenizer, args, prompt_dir, res_dir):
+def run_inference(dataset_names, model_name, partition, use_random_question, use_20_fewshot, pipe, tokenizer, args, prompt_dir, res_dir, ds_dir):
 
     # load data
-    ds = datasets.from_pretrained('nbalepur/mcqa_artifacts')
+    ds = datasets.from_pretrained(ds_dir)
 
     for dataset_name in dataset_names[0]:
 
@@ -209,7 +215,7 @@ def run_inference(dataset_names, model_name, partition, use_random_question, use
         results_dir = f'{args.res_dir}{dataset_name.value}/{model_name}'
 
         for pt in [PromptType.normal]:
-            data = create_data(ds, dataset_name, pt, args.prompt_dir, use_20_fewshot=use_20_fewshot)
+            data = create_data(ds, dataset_name, pt, prompt_dir, use_20_fewshot=use_20_fewshot)
             input_prompts, output_letters, stop_token = data['input'], data['output'], data['stop_token']
 
             # run generation
@@ -267,10 +273,10 @@ def run_inference(dataset_names, model_name, partition, use_random_question, use
 if __name__ == '__main__':
     
     # set up arguments
-    dataset_names, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_random_question, use_20_fewshot, half, prompt_dir, res_dir, cache_dir = setup()
+    dataset_names, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_random_question, use_20_fewshot, half, prompt_dir, res_dir, cache_dir, ds_dir = setup()
 
     # get the model
     model, tokenizer = load_model(hf_model_name, load_in_4bit, load_in_8bit, cache_dir)
 
     # run inference
-    run_inference(dataset_names, model_name, half, use_random_question, use_20_fewshot, model, tokenizer, prompt_dir, res_dir)
+    run_inference(dataset_names, model_name, half, use_random_question, use_20_fewshot, model, tokenizer, prompt_dir, res_dir, ds_dir)
