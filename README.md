@@ -1,6 +1,6 @@
 # Multiple Choice Question Answering Artifacts
 
-This repository is the official implementation of the in-progress paper: "Large Language Models Exploit Artifacts in Multiple Choice Question Answering"
+This repository is the official implementation of the in-progress paper: "Artifacts or Abduction:\\How Do LLMs Answer Multiple-Choice Questions Without the Question?"
 
 <p align="center">
   <img src="/images/figure.png"></img>
