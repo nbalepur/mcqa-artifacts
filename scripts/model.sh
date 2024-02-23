@@ -1,11 +1,11 @@
 #!/bin/bash
 
-model_name="llama 70b" # model nickname (for saving in folders)
-model_name_hf="meta-llama/Llama-2-70b-hf" # huggingface directory
+model_name="llama 7b" # model nickname (for saving in folders)
+model_name_hf="meta-llama/Llama-2-7b-hf" # huggingface directory
 
 # list of experiments
 # see all possible experiments in: /mcqa-artifacts/model/data_loader.py
-experiments=("normal" "artifact_choices_cot")
+experiments=("normal" "artifact_choices")
 
 # list of datasets to test
 # see all possible datasets in: /mcqa-artifacts/model/data_loader.py
@@ -15,14 +15,14 @@ datasets=("ARC")
 # can be "full" or in halves (e.g. "first_half"), quarters (e.g. "first_quarter"), or eigths (e.g. "first_eighth")
 partition="full" 
 
-hf_token=... # huggingface token (for downloading gated models)
+hf_token="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" # huggingface token (for downloading gated models)
 load_in_8bit="False" # load the model in 8bit? ("False" or "True")
 load_in_4bit="False" # load the model in 4bit? ("False" or "True")
 use_20_fewshot="False" # use a 20-shot prompt in ARC? ("False" or "True") => we set this to "True" for Falcon 
 
-res_dir=".../mcqa-artifacts/results" # Results folder directory
-prompt_dir=".../mcqa-artifacts/prompts" # Prompt folder directory
-cache_dir=... # Cache directory to save the model
+res_dir="/fs/clip-projects/rlab/nbalepur/Artifact_Dataset_Creation/mcqa-artifacts/results/" # Results folder directory
+prompt_dir="/fs/clip-projects/rlab/nbalepur/Artifact_Dataset_Creation/mcqa-artifacts/prompts/" # Prompt folder directory
+cache_dir="/fs/clip-scratch/nbalepur/cache/" # Cache directory to save the model
 
 
 

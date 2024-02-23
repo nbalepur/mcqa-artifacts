@@ -224,11 +224,14 @@ def run_inference(dataset_names, prompt_types, model_name, partition, use_20_few
 
             # save results
             if partition != 'full':
-                with open(f'{results_dir}/{pt.value}_{partition}.pkl', 'wb') as handle:
-                    pickle.dump(answers, handle, protocol=pickle.HIGHEST_PROTOCOL)
+                final_res_dir = f'{results_dir}/{pt.value}_{partition}.pkl'
             else:
-                with open(f'{results_dir}/{pt.value}.pkl', 'wb') as handle:
-                    pickle.dump(answers, handle, protocol=pickle.HIGHEST_PROTOCOL)
+                final_res_dir = f'{results_dir}/{pt.value}.pkl'
+                
+            if not os.path.exists(final_res_dir):
+                os.makedirs(final_res_dir)
+            with open(final_res_dir, 'wb') as handle:
+                pickle.dump(answers, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 if __name__ == '__main__':
     

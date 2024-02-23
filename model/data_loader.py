@@ -43,10 +43,12 @@ class PromptType(Enum):
 
 
 class DatasetName(Enum):
-    mmlu = 'mmlu' # MMLU
-    HellaSwag = 'HellaSwag' # HellaSwag
-    ARC = 'ARC' # ARC
-    Winogrande = 'Winogrande' # Winogrande (not in paper)
+    ARC = 'ARC'
+    CQA = 'CQA'
+    OBQA = 'OBQA'
+    PIQA = 'PIQA'
+    QASC = 'QASC'
+    SIQA = 'SIQA'
 
 prompt_type_map = {
     PromptType.normal: Normal,
