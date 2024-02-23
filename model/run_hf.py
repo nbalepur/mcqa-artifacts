@@ -53,8 +53,22 @@ def setup():
         "--dataset_name",
         nargs='*',
         type=enum_type(DatasetName),
-        help="Name of the dataset",
+        help="Name of the dataset (in dataset_name column)",
         default=[],
+    )
+    parser.add_argument(
+        "--dataset_split",
+        nargs='*',
+        type=str,
+        help="Dataset split",
+        default="",
+    )
+    parser.add_argument(
+        "--hf_dataset_name",
+        nargs='*',
+        type=str,
+        help="Name of the dataset on huggingface",
+        default="",
     )
     parser.add_argument(
         "--load_in_8bit",
@@ -121,6 +135,8 @@ def setup():
     assert(not (load_in_4bit and load_in_8bit))
 
     dataset_names = args.dataset_name
+    dataset_split = args.dataset_split
+    hf_dataset_name = args.hf_dataset_name
     prompt_types = args.prompt_types
     model_name = args.model_name
     hf_model_name = args.model_name_hf
@@ -130,7 +146,7 @@ def setup():
     hf_token = args.hf_token
     HfFolder.save_token(hf_token)
 
-    return dataset_names, prompt_types, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_20_fewshot, partition, args.prompt_dir, args.res_dir, args.cache_dir
+    return dataset_names, dataset_split, hf_dataset_name, prompt_types, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_20_fewshot, partition, args.prompt_dir, args.res_dir, args.cache_dir
 
 # =========================================== Load Model ===========================================
 
@@ -179,10 +195,10 @@ def generate_text(prompt, stop_token):
     stopping_criteria=stopping_criteria,
     return_full_text=False)[0]['generated_text'][:-len(stop_token)].strip()
 
-def run_inference(dataset_names, prompt_types, model_name, partition, use_20_fewshot, pipe, tokenizer, prompt_dir, res_dir):
+def run_inference(dataset_names, dataset_split, hf_dataset_name, prompt_types, model_name, partition, use_20_fewshot, pipe, tokenizer, prompt_dir, res_dir):
 
     # load data
-    ds = datasets.from_pretrained('nbalepur/mcqa_artifacts')
+    ds = datasets.load_dataset(hf_dataset_name)[dataset_split]
 
     for dataset_name in dataset_names[0]:
 
@@ -227,7 +243,7 @@ def run_inference(dataset_names, prompt_types, model_name, partition, use_20_few
                 final_res_dir = f'{results_dir}/{pt.value}_{partition}.pkl'
             else:
                 final_res_dir = f'{results_dir}/{pt.value}.pkl'
-                
+
             if not os.path.exists(final_res_dir):
                 os.makedirs(final_res_dir)
             with open(final_res_dir, 'wb') as handle:
@@ -236,12 +252,12 @@ def run_inference(dataset_names, prompt_types, model_name, partition, use_20_few
 if __name__ == '__main__':
     
     # set up arguments
-    dataset_names, prompt_types, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_20_fewshot, half, prompt_dir, res_dir, cache_dir = setup()
+    dataset_names, dataset_split, hf_dataset_name, prompt_types, model_name, hf_model_name, load_in_4bit, load_in_8bit, use_20_fewshot, half, prompt_dir, res_dir, cache_dir = setup()
 
     # get the model
     pipe, tokenizer = load_model(hf_model_name, load_in_4bit, load_in_8bit)
 
     # run inference
-    run_inference(dataset_names, prompt_types, model_name, half, use_20_fewshot, pipe, tokenizer)
+    run_inference(dataset_names, dataset_split, hf_dataset_name, prompt_types, model_name, half, use_20_fewshot, pipe, tokenizer)
 
     

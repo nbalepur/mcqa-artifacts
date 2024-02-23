@@ -41,14 +41,19 @@ class PromptType(Enum):
     choice_d_question = 'choice_d_question' # Independently classify the correctness of each option D, with the question (75/25 prior)
 
 
-
 class DatasetName(Enum):
-    ARC = 'ARC'
-    CQA = 'CQA'
-    OBQA = 'OBQA'
-    PIQA = 'PIQA'
-    QASC = 'QASC'
-    SIQA = 'SIQA'
+    mmlu = 'mmlu' # MMLU
+    HellaSwag = 'HellaSwag' # HellaSwag
+    ARC = 'ARC' # ARC
+    Winogrande = 'Winogrande' # Winogrande (not in paper)
+
+# class DatasetName(Enum):
+#     ARC = 'ARC'
+#     CQA = 'CQA'
+#     OBQA = 'OBQA'
+#     PIQA = 'PIQA'
+#     QASC = 'QASC'
+#     SIQA = 'SIQA'
 
 prompt_type_map = {
     PromptType.normal: Normal,
