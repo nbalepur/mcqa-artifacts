@@ -10,8 +10,9 @@ experiments=("normal" "artifact_choices")
 # list of datasets to test
 # see all possible datasets in: /mcqa-artifacts/model/data_loader.py
 datasets=("ARC")
-datasets_split="eval_only"
-hf_dataset_name=""
+train_dataset_split="train"
+eval_dataset_split="test"
+hf_dataset_name="nbalepur/MCQA_quality"
 
 # what partition of the dataset to run
 # can be "full" or in halves (e.g. "first_half"), quarters (e.g. "first_quarter"), or eigths (e.g. "first_eighth")
@@ -34,7 +35,8 @@ python3 /mcqa-artifacts/model/run_hf.py \
 --model_name="$model_name" \
 --model_name_hf="$model_name_hf" \
 --dataset_name="$datasets_str" \
---dataset_split="$datasets_split" \
+--train_dataset_split="$train_dataset_split" \
+--eval_dataset_split="$eval_dataset_split" \
 --hf_dataset_name="$hf_dataset_name" \
 --hf_token="$hf_token" \
 --load_in_4bit="$load_in_4bit" \

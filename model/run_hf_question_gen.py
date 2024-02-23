@@ -57,10 +57,17 @@ def setup():
         default=[],
     )
     parser.add_argument(
-        "--dataset_split",
+        "--train_dataset_split",
         nargs='*',
         type=str,
-        help="Dataset split",
+        help="Training dataset split",
+        default="",
+    )
+    parser.add_argument(
+        "--eval_dataset_split",
+        nargs='*',
+        type=str,
+        help="Evaluation dataset split",
         default="",
     )
     parser.add_argument(
@@ -135,7 +142,7 @@ def setup():
     assert(not (load_in_4bit and load_in_8bit))
 
     dataset_names = args.dataset_name
-    dataset_split = args.dataset_split
+    dataset_split = (args.train_dataset_split, args.eval_dataset_split)
     hf_dataset_name = args.hf_dataset_name
     model_name = args.model_name
     hf_model_name = args.model_name_hf
@@ -196,7 +203,7 @@ def generate_text(prompt, stop_token):
 def run_inference(dataset_names, dataset_split, hf_dataset_name, model_name, partition, use_random_question, use_20_fewshot, pipe, tokenizer, prompt_dir, res_dir):
 
     # load data
-    ds = datasets.load_dataset(hf_dataset_name)[dataset_split]
+    ds = datasets.load_dataset(hf_dataset_name)
 
     for dataset_name in dataset_names[0]:
 
@@ -211,7 +218,7 @@ def run_inference(dataset_names, dataset_split, hf_dataset_name, model_name, par
         results_dir = f'{res_dir}{dataset_name.value}/{model_name}'
 
         for pt in [PromptType.normal]:
-            data = create_data(ds, dataset_name, pt, prompt_dir, use_20_fewshot=use_20_fewshot)
+            data = create_data(ds, dataset_name, dataset_split, pt, prompt_dir, use_20_fewshot=use_20_fewshot)
             input_prompts, output_letters, stop_token = data['input'], data['output'], data['stop_token']
 
             # run generation

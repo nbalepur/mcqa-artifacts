@@ -75,7 +75,7 @@ prompt_type_map = {
     PromptType.choice_d_question: ChoiceDQuestion,
 }
 
-def create_data_choices_even_mmlu(dataset, dataset_name, prompt_type, prompt_dir, use_20_fewshot=False):
+def create_data_choices_even_mmlu(dataset, dataset_name, dataset_split, prompt_type, prompt_dir, use_20_fewshot=False):
 
     if prompt_dir[-1] != '/':
         prompt_dir += '/'
@@ -87,7 +87,7 @@ def create_data_choices_even_mmlu(dataset, dataset_name, prompt_type, prompt_dir
         suffix += "_20"
 
     # load data and prompt objects
-    train_ds, test_ds = dataset['train'], dataset['test']
+    train_ds, test_ds = dataset[dataset_split[0]], dataset[dataset_split[1]]
 
     # get all tagged datasets
     train_ds_ = train_ds.filter(lambda example: dataset_name.value in example['dataset'])
@@ -130,13 +130,13 @@ def create_data_choices_even_mmlu(dataset, dataset_name, prompt_type, prompt_dir
 
     return {'input': final_input_prompts, 'output': final_output_letters, 'stop_token': '\nQuestion:' if 'question' in prompt_type.value else '\nChoice:'}
 
-def create_data_choices_even(dataset, dataset_name, prompt_type, prompt_dir, use_20_fewshot=False):
+def create_data_choices_even(dataset, dataset_name, dataset_split, prompt_type, prompt_dir, use_20_fewshot=False):
 
     if prompt_dir[-1] != '/':
         prompt_dir += '/'
 
     if dataset_name == DatasetName.mmlu:
-        return create_data_choices_even_mmlu(dataset, dataset_name, prompt_type, prompt_dir, use_20_fewshot)
+        return create_data_choices_even_mmlu(dataset, dataset_name, dataset_split, prompt_type, prompt_dir, use_20_fewshot)
 
     if dataset_name not in [DatasetName.ARC, DatasetName.HellaSwag]:
         print(f"Sorry, {dataset_name} is not supported!")
@@ -154,7 +154,7 @@ def create_data_choices_even(dataset, dataset_name, prompt_type, prompt_dir, use
     idx_map = {PromptType.choice_a_even: 0, PromptType.choice_a_question_even: 0, PromptType.choice_b_even: 1, PromptType.choice_b_question_even: 1, PromptType.choice_c_question_even: 2, PromptType.choice_c_even: 2, PromptType.choice_d_even: 3, PromptType.choice_d_question_even: 3}
     choice_idx = idx_map[prompt_type]
 
-    test_ds = dataset['test']
+    test_ds = dataset[dataset_split[1]]
     test_ds = test_ds.filter(lambda example: dataset_name.value in example['dataset'])
 
     final_input_prompts = []
@@ -172,13 +172,13 @@ def create_data_choices_even(dataset, dataset_name, prompt_type, prompt_dir, use
 
     return {'input': final_input_prompts, 'output': final_output_letters, 'stop_token': '\nQuestion:' if 'question' in prompt_type.value else '\nChoice:'}
 
-def create_data(dataset, dataset_name, prompt_type, prompt_dir, use_20_fewshot=False):
+def create_data(dataset, dataset_name, dataset_split, prompt_type, prompt_dir, use_20_fewshot=False):
 
     if 'even' in prompt_type.value:
-        return create_data_choices_even(dataset, dataset_name, prompt_type, prompt_dir, use_20_fewshot)
+        return create_data_choices_even(dataset, dataset_name, dataset_split, prompt_type, prompt_dir, use_20_fewshot)
 
     # load data and prompt objects
-    train_ds, test_ds = dataset['train'], dataset['test']
+    train_ds, test_ds = dataset[dataset_split[0]], dataset[dataset_split[1]]
     prompt_object = prompt_type_map[prompt_type]()
 
     # get all tagged datasets
