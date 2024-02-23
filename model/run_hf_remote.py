@@ -256,8 +256,8 @@ def run_inference(dataset_names, dataset_split, hf_dataset_name, prompt_types, m
             else:
                 final_res_dir = f'{results_dir}/{pt.value}.pkl'
                 
-            if not os.path.exists(final_res_dir):
-                os.makedirs(final_res_dir)
+            if not os.path.exists('/'.join(final_res_dir.split('/')[:-1])):
+                os.makedirs('/'.join(final_res_dir.split('/')[:-1]))
             with open(final_res_dir, 'wb') as handle:
                 pickle.dump(answers, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
