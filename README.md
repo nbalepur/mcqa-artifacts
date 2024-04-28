@@ -1,6 +1,6 @@
 # Multiple Choice Question Answering Artifacts
 
-This repository is the official implementation of the in-progress paper: "Artifacts or Abduction: How Do LLMs Answer Multiple-Choice Questions Without the Question?"
+This repository is the official implementation of the in-progress paper: "Artifacts or Abduction: How Do LLMs Answer Multiple-Choice Questions Without the Question?", which can be viewed on Arxiv [here](https://arxiv.org/abs/2402.12483).
 
 <p align="center">
   <img src="/images/figure.png"></img>
