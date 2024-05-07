@@ -8,7 +8,7 @@ This repository is the official implementation of the in-progress paper: "Artifa
 
 ## Overview
 
-This repository contains the code and dataset to run the direct answer and process of elimination strategies, with and without chain of thought, on our four tested commonsense reasoning and scientific reasoning multiple-choice QA datasets.
+This repository contains the code and dataset to run our experiments related to choices-only LLMs in MCQA, memorization, individual priors and choices dynamics, and the meta-strategy of abductive question inference
 
 ## Setup
 
